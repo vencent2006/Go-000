@@ -1,5 +1,13 @@
 学习笔记
 
+# 作业
+👉Week03 作业题目：
+1.基于 errgroup 实现一个 http server 的启动和关闭 ，以及 linux signal 信号的注册和处理，要保证能够 一个退出，全部注销退出。
+<br/>*以上作业，要求提交到Github上面，Week03作业提交地址：
+https://github.com/Go-000/Go-000/issues/69*
+
+**👉请务必按照示例格式进行提交，不要复制其他同学的格式，以免格式错误无法抓取作业。**
+<br/><br/><br/>
 
 # 毛剑面试必考并发，cow、atomic.value
 * redis面试：cow必考，bgsave
