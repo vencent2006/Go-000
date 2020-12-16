@@ -5,3 +5,8 @@
 
 
 `这里是完成的是一个，发布内容的demo`
+
+```shell script
+go get -u github.com/golang/protobuf/protoc-gen-go
+protoc --go_out=plugins=grpc:.  article.proto  
+```
