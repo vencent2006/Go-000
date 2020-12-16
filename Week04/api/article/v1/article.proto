@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package user.v1;
+
+option go_package = "Week04/api/article/v1;v1";
+
+
+service Article {
+  rpc PostArticle (PostArticleRequest) returns (PostArticleResponse) {}
+}
+
+message PostArticleRequest {
+  string title = 1;
+  string content = 2;
+}
+
+message PostArticleResponse {
+  int64 id = 1;
+}
